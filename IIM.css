@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pathway Gothic One", sans-serif;
+}
+
+body {
+  background-image: url("IMG/DanteStar.jpg");
+  background-repeat: no-repeat;
+  background-color: #000000;
+  background-size: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-attachment: local;
+  transition: 0.5s ease;
+}
+body.light{
+    background-image: url("IMG/bkg\ lightmode.jpg");
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  background-size: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-attachment: local;
+  transition: 0.5s ease;
+}
+h1 {
+  font-size: 75px;
+  font-style: italic;
+  text-align: center;
+  color: rgb(235, 212, 6);
+  -webkit-text-stroke: 0.1px black;
+  background-color: rgb(107, 0, 0);
+}
+.light h1{
+    font-size: 75px;
+  font-style: italic;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 0.1px black;
+  background-color: rgb(107, 0, 0);
+}
+h2 {
+  font-size: 75px;
+  font-style: italic;
+  text-align: center;
+  color: rgb(235, 212, 6);
+  -webkit-text-stroke: 0.1px black;
+}
+.light h2{
+  font-size: 75px;
+  font-style: italic;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 0.1px black;
+}
+.logo {
+  width: 5%;
+}
+.Personnages {
+  background-color: rgb(107, 0, 0);
+}
+.line {
+  font-size: 1%;
+}
+.LCD {
+  text-align: center;
+  margin: 100px;
+}
+.Espacement {
+  width: 20%;
+  transition: 0.5s ease;
+  margin: 10px;
+}
+.Espacement:hover {
+  transform: scale(1.04);
+}
+
+.volume {
+  width: 20%;
+  padding-top: 15%;
+  margin-left: 2%;
+}
+
+.centre {
+  margin-left: 25%;
+  width: 50%;
+}
+
+#Ishmael {
+  display: flex;
+  align-items: center;
+}
+#DonQuixote {
+  display: flex;
+  align-items: center;
+}
+
+#Ryoshuu {
+  display: flex;
+  align-items: center;
+}
+
+#Faust {
+  display: flex;
+  align-items: center;
+}
+.Ishmaellore {
+  margin-left: 20%;
+  font-size: 80px;
+  color: rgb(235, 212, 6);
+}
+.Ishmaeltext {
+  font-size: 40px;
+  margin-top: 5%;
+  color: red;
+}
+.Ishmaeltextbis {
+  font-size: 40px;
+  margin-top: 35%;
+  color: red;
+}
+
+.light .Ishmaeltext{
+    font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+.light .Ishmaeltextbis {
+  font-size: 40px;
+  margin-top: 35%;
+  color: rgb(0, 0, 0);
+}
+
+.light .Ishmaellore { 
+  margin-left: 20%;
+  font-size: 80px;
+  color: rgb(255, 123, 0);
+}
